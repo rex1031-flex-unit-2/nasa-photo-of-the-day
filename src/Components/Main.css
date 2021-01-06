@@ -14,14 +14,26 @@ p{
 }
 
 .textSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     width: 50vw;
     height: 100vh;
     padding: 25px;
+    margin: 10px;
     
 }
 
 .photoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     width: 50vw;
     height: 100vh;
-    padding: 25px
+    padding: 25px;
+    margin: 10px;
 }
