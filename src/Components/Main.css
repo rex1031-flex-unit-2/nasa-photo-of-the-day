@@ -1,20 +1,27 @@
 *{
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 body{
     margin: 0 auto;
 }
+p{
+    text-align: left;
+}
 .content{
     display: flex;
+    align-items: center;
     
 }
 
 .textSection{
     width: 50vw;
-    padding: 25px
+    height: 100vh;
+    padding: 25px;
+    
 }
 
 .photoSection{
     width: 50vw;
+    height: 100vh;
     padding: 25px
 }
