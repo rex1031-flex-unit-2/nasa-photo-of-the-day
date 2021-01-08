@@ -1,21 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Image = styled.div`
-
-div{
-    width: 25vw;
+const ImageWrap = styled.div`
+    padding: 30px;
     
-}
+    img{
+        border-radius: 5px;
+        border: solid 5px #4D3A81;
+        width: 60vh;
+    } 
+`;
 
-
-`
 const Potd = props =>(
-    <Image>
-
+    <ImageWrap>
     <img src ={props.url} alt="NASA PotD">{props.title}</img>
-
-    </Image>
+    </ImageWrap>
 
 
 )

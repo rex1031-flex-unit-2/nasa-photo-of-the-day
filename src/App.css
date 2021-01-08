@@ -1,7 +1,15 @@
+html{
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
 body{
-  background-color: #010A2D;
   width: 75%;
   margin: auto;
+  color: wheat;
+  font-family: 'Orbitron', sans-serif;
 }
 
 
