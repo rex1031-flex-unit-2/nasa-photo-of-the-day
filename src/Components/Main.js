@@ -2,8 +2,23 @@ import React, { useState, useEffect} from 'react';
 import axios from  'axios';
 import "./Main.css"
 import Potd from './Potd';
+import styled from "styled-components";
 
 
+const Wrapper = styled.div`
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: #4D3A81;
+}
+`;
 
 const Main = props =>{
 
@@ -23,19 +38,24 @@ const Main = props =>{
   
 
 return(
-    <div className="content">
+    <Wrapper className="content">
         <div className="textSection">
             <h1>NASA Photo of the Day</h1>
             <h2>{data.date}</h2>
             <h3>{data.title}</h3>
-            <p>{data.explanation}</p>
-        </div>
-        
+
         <div className="photoSection">
-            <Potd url={data.url} />
+            <Potd url={data.url} /> 
             <h4>Credit: {data.copyright}</h4>
         </div>
-    </div>
+
+           
+            <p>{data.explanation}</p>
+        
+        
+        
+        </div>
+    </Wrapper>
 )
 
 

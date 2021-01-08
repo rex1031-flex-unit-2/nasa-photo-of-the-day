@@ -1,8 +1,9 @@
-*{
-    /* border: solid red 1px; */
-}
-body{
+
+/* body{
+    width: 100%;
     margin: 0 auto;
+    background-color: #363636;
+    color: #FFA73C;
 }
 p{
     text-align: left;
@@ -36,4 +37,4 @@ p{
     height: 100vh;
     padding: 25px;
     margin: 10px;
-}
+} */
